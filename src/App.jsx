@@ -1,12 +1,10 @@
-import './App.css'
+
 import React from 'react';
 
 function App() {
   
   return (
-    <>
-      <p>Coucou</p>
-    </>
+   <button>test</button>
     
   )
 }
@@ -27,7 +25,7 @@ export function ShoppingList() { // on peut aussi exporter une function comme ca
     <li
       key={product.id}
       style={{
-        color: product.isFruit ? 'magenta' : 'darkgreen'
+        color: product.isFruit ? 'magenta' : 'darkgreen' // si c un fruit tu le mets en magenta sn en vert
       }}
     >
       {product.title}
